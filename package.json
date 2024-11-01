@@ -1,0 +1,20 @@
+{
+    "name": "com.yourindiedev.simple-object-pool",
+    "version": "1.0.0",
+    "displayName": "Simple Object Pool",
+    "description": "A simple object pooling system for Unity.",
+    "unity": "2023.2",
+    "unityRelease": "20f1",
+    "author": {
+      "name": "Your Indie Dev",
+      "url": "https://github.com/YourIndieDev"
+    },
+    "keywords": [
+      "object pool",
+      "pooling",
+      "unity",
+      "indie",
+      "tool"
+    ],
+    "dependencies": {}
+  }
