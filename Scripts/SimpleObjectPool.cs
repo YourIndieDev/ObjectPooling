@@ -14,7 +14,7 @@ namespace Indie
             public int size;
         }
 
-        [SerializeField] private List<Pool> pools;
+        [SerializeField] public List<Pool> pools;
         private Dictionary<string, Queue<GameObject>> poolDictionary;
 
         private void Awake()
@@ -22,7 +22,7 @@ namespace Indie
             InitializePools();
         }
 
-        private void InitializePools()
+        public void InitializePools()
         {
             poolDictionary = new Dictionary<string, Queue<GameObject>>();
 
